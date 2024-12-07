@@ -1,0 +1,59 @@
+{
+    "dicount_id": 21,
+    "discount_data": {
+        "method": "code | automatic",
+        "discount_code": "Buy one, get the second 10 percent off",
+        "description": "30% off The Complete Snowboard (Ice) • Minimum quantity of 3"
+    },
+    "discount_categroy": "Product discount | Order discount | Shipping discount",
+    "type": "Buy X Get Y",
+    "discount_currency": "INR",
+    "combinations": [
+        "Product discounts",
+        "Order discounts"
+    ],
+    "discount_used": 5,
+    "countries": {
+        "eligible_to_all_country": false,
+        "selected_countries": [
+            "US",
+            "EU",
+            "IN"
+        ]
+    },
+    "purchase_type": [
+        "one_time_purchase"
+    ],
+    "exclud_shipping_rates": {
+        "is_excluded": false,
+        "exclude_shipping_at_amount": 500
+    },
+    "minumum_requirements": {
+        "is_minimum_required": true,
+        "is_minimum_purchase_amount": true,
+        "is_minimum_quantity": true,
+        "minimum_purchase_amount": 100,
+        "minimum_purchase_quantity": 0
+    },
+    "customers_eligibility": {
+        "is_all_customers": false,
+        "specific_customers_ids": [
+            2,
+            4,
+            5,
+            6
+        ]
+    },
+    "active_dates": {
+        "start_date": "2022-02-01",
+        "start_date_time": "2:31:00",
+        "end_date": "2022-08-28",
+        "end_date_time": "2:50:00",
+        "is_end_date": true
+    },
+    "discount_uses": {
+        "is_limited": true,
+        "total_limited_value": 5,
+        "limit_to_one_user": true
+    }
+}

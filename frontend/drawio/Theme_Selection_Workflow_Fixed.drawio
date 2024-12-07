@@ -1,0 +1,135 @@
+<mxfile host="65bd71144e">
+    <diagram name="Theme Selection Workflow" id="0">
+        <mxGraphModel dx="986" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" style="" parent="0"/>
+                <mxCell id="s1" value="Client Requests Website Template" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="20" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2" value="Show Available Themes to Client" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="120" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es1_s2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s1" target="s2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3" value="Has Client Selected Theme?" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="220" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es2_s3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s2" target="s3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s4" value="Confirm Theme Selection" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es3_s4_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s3" target="s4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5" value="Generate Preview Link (10-Min Expiry)" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="420" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es4_s5_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s4" target="s5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s6" value="Client Views Theme Preview" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="520" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es5_s6_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s5" target="s6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s7" value="Does Client Confirm Theme?" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="620" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es6_s7_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s6" target="s7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s8" value="Client Confirms Theme Selection" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="720" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es7_s8_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s7" target="s8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s9" value="Confirmation Popup - Are You Sure?" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="820" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es8_s9_8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s8" target="s9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s10" value="Developer Workflow Initiation" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="920" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es9_s10_9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s9" target="s10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s11" value="Generate Access Token" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="920" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es10_s11_10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s10" target="s11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s12" value="Embed Token in Template" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="920" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es11_s12_11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s11" target="s12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s13" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s13" value="Ready-to-Use Template Setup for Client" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="920" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es12_s13_12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s12" target="s13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s14" value="Show Custom Design Option" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es3_s14_13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s3" target="s14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s15" value="Gather Design Requirements" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="420" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es14_s15_14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s14" target="s15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s16" value="Provide Quotation to Client" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="520" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es15_s16_15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s15" target="s16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="s17" value="Client Confirms Quotation" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="620" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es16_s17_16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s16" target="s17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="s18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s18" value="Proceed with Custom Development" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="720" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="es17_s18_17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="s17" target="s18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="900" as="sourcePoint"/>
+                        <mxPoint x="760" y="1010" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="NO, Preview will be available unitill it deploy on any custom domain" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="820" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Developer have guidance to setup project and deploy to client domain" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="820" width="160" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

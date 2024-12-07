@@ -1,0 +1,65 @@
+.label {
+    position: relative;
+    display: block;
+    width: 480px;
+    border-radius: 10px;
+    border: 2px solid #5e5757;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+.shortcut {
+    position: absolute;
+    top: 50%;
+    right: -3%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    color: #c5c5c5;
+    background-color: #5e5757;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    padding: 2px 3px;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.search_bar {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(111, 115, 119);
+}
+
+@media (max-width: 768px) {
+    .label {
+        width: 280px;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.siyahfy-slide-in {
+    animation: slideIn 0.2s ease-out forwards;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 47.375rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
